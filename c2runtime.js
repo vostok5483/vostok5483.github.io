@@ -18495,9 +18495,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.LoadState,
 	cr.system_object.prototype.cnds.OnLoadFailed,
 	cr.system_object.prototype.acts.SaveState,
-	cr.system_object.prototype.acts.SetVar,
-	cr.plugins_.ATPAds.prototype.acts.LoadBanner,
-	cr.plugins_.ATPAds.prototype.acts.SetLayout,
-	cr.plugins_.ATPAds.prototype.cnds.onBannerLoaded,
-	cr.plugins_.ATPAds.prototype.acts.ShowBanner
+	cr.system_object.prototype.acts.SetVar
 ];};
